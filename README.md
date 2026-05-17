@@ -8,7 +8,7 @@ Cross-Modality Knowledge Transfer Framework for Laser Additive Manufacturing Pro
 
 This repository implements a cross-modality knowledge transfer (CMKT) framework for laser additive manufacturing (LAM) process monitoring and defect prediction.
 
-The proposed framework transfers semantic knowledge between:
+The proposed framework transfers knowledge between:
 - melt pool images
 - audio spectrograms
 
@@ -78,3 +78,9 @@ cmkt-lam-monitoring/
 ├── requirements.txt
 ├── environment.yml
 └── README.md
+
+---
+
+## Dataset
+
+The dataset used in this project can be access via: https://zenodo.org/records/12604782
