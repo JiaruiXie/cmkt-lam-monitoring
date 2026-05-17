@@ -342,9 +342,9 @@ class Trainer:
 
         for epoch in range(epochs):
 
-            print(
-                f"Epoch {epoch+1}/{epochs}"
-            )
+            # print(
+            #     f"Epoch {epoch+1}/{epochs}"
+            # )
 
             metrics = self.train_epoch(
                 train_loader
@@ -366,24 +366,24 @@ class Trainer:
                 metrics["accuracy"]
             )
 
-            print(
-                f"Encoder Loss: "
-                f"{metrics['encoder_loss']:.4f}"
-            )
+            # print(
+            #     f"Encoder Loss: "
+            #     f"{metrics['encoder_loss']:.4f}"
+            # )
 
-            print(
-                f"Alignment Loss: "
-                f"{metrics['alignment_loss']:.4f}"
-            )
+            # print(
+            #     f"Alignment Loss: "
+            #     f"{metrics['alignment_loss']:.4f}"
+            # )
 
-            print(
-                f"Task Loss: "
-                f"{metrics['task_loss']:.4f}"
-            )
+            # print(
+            #     f"Task Loss: "
+            #     f"{metrics['task_loss']:.4f}"
+            # )
 
-            print(
-                f"Accuracy: "
-                f"{metrics['accuracy']:.4f}"
-            )
+            # print(
+            #     f"Accuracy: "
+            #     f"{metrics['accuracy']:.4f}"
+            # )
 
         return history
